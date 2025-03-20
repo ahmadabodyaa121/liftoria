@@ -543,6 +543,10 @@ ul, ol {
 .info_links-list{text-align: right;
 line-height: 2.5;}
 
+.nav-link-footer:hover{
+    color: #bda054;
+}
+
 
 
 

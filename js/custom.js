@@ -98,7 +98,7 @@ function sendWhatsAppMessage(event) {
     const encodedMessage = encodeURIComponent(formattedMessage);
     
     // Create WhatsApp URL
-    const whatsappUrl = `https://wa.me/352681588623?text=${encodedMessage}`;
+    const whatsappUrl = `https://wa.me/963933198561?text=${encodedMessage}`;
     
     // Open WhatsApp in a new tab
     window.open(whatsappUrl, '_blank');
