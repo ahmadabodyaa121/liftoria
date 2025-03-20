@@ -7,9 +7,10 @@
     padding-bottom: 0px;
     
   }
+  .contact_info-item{text-align: center;}
 
   .navbar-nav {
-    align-items: center;
+    padding: auto;
   }
   .navbar-collapse .social_box{
     display: none;

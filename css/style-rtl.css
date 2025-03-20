@@ -218,7 +218,6 @@ ul, ol {
 }
 
 .navbar-collapse {
-    flex: 1;
     display: flex;
     justify-content: center;
 }
@@ -545,6 +544,17 @@ line-height: 2.5;}
 
 .nav-link-footer:hover{
     color: #bda054;
+}
+
+/* Hide logo when navbar is toggled on mobile */
+@media (max-width: 991px) {
+    .navbar-collapse.show + .navbar-brand {
+        display: none;
+    }
+    
+    .navbar-collapse.show ~ .navbar-brand {
+        display: none;
+    }
 }
 
 
